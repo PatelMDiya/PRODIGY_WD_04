@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya Patel| Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    /* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+header .intro h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header .intro p {
+  font-size: 1.5rem;
+}
+
+header .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+  background-color: #c0392b;
+}
+
+/* Section Styles */
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* About Me Section */
+.about .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.about-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 2;
+  text-align: left;
+}
+
+/* Projects Section */
+.projects .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 250px;
+}
+
+.project-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.project-item p {
+  color: #666;
+}
+
+.project-item a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+/* Skills Section */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skills-list li {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact form label {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact form input, .contact form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact form button {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+</style>
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Diya Patel</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="intro">
+            <div class="container">
+                <h1>Hi, I'm Diya Patel</h1>
+                <p>Crafting Elegant and Efficient Code to Bring Ideas to Life</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="content">
+                <div class="about-img">
+                    <img src="img/shalini.jpg" alt="Diya Patel">
+                </div>
+                <div class="about-text">
+                    <p>I am a passionate web developer with experience in building responsive and dynamic websites. I have a background in computer science and a love for creating elegant solutions to complex problems. My journey in web development began with learning HTML, CSS, and JavaScript, and I have since expanded my skills to include frameworks such as React and Node.js. I am always eager to learn new technologies and take on challenging projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Project Title</h3>
+                    <p>Description of the project...</p>
+                    <a href="https://github.com/yourusername/project-repo" target="_blank">View on GitHub</a>
+                </div>
+                <!-- Add more project blocks as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Diya Patel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
